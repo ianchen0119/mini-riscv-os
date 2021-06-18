@@ -35,6 +35,8 @@ And you should start your git-bash to build the project. (It works for me in vsc
   - Enable SysTick for future scheduler implementation
 * [05-Preemptive](05-Preemptive)
   - Basic preemptive scheduling
+* [06-Spinlock](06-Spinlock)
+  - Lock for protect critical sections
 
 ## Building and Verification
 
@@ -43,6 +45,13 @@ And you should start your git-bash to build the project. (It works for me in vsc
 ```
 make
 make qemu
+```
+
+## Debug
+> supported in 06-Spinlock only.
+
+```
+make debug
 ```
 
 ## Licensing
